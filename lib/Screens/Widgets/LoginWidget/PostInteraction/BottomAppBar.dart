@@ -26,27 +26,27 @@ class _PostBottomAppBarState extends State<PostBottomAppBar> {
 
           Container(
             padding: EdgeInsets.all(5),
-            child: Icon(Icons.home, color: Colors.yellow,),
+            child: Icon(Icons.home, color: Colors.yellow, size: 30,),
           ),
 
           Container(
             padding: EdgeInsets.all(5),
-            child: Icon(Icons.search, color: Colors.yellow,),
+            child: Icon(Icons.search, color: Colors.yellow, size: 30,),
           ),
 
           Container(
             padding: EdgeInsets.all(5),
-            child: Icon(Icons.add_box, color: Colors.yellow,),
+            child: Icon(Icons.add_box, color: Colors.yellow, size: 30,),
           ),
 
           Container(
             padding: EdgeInsets.all(5),
-            child: Icon(Icons.notifications, color: Colors.yellow,),
+            child: Icon(Icons.notifications, color: Colors.yellow, size: 30,),
           ),
 
           Container(
             padding: EdgeInsets.all(5),
-            child: Icon(Icons.person, color: Colors.yellow,),
+            child: Icon(Icons.person, color: Colors.yellow, size: 30,),
           )
 
         ],
