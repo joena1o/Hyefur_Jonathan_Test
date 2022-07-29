@@ -12,7 +12,6 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-
     Size size = MediaQuery.of(context).size;
 
     return Container(
@@ -21,28 +20,11 @@ class _LoginScreenState extends State<LoginScreen> {
       color: Colors.white,
       child: ListView(
         children: [
-
-          Positioned(
-            child:  LoginHeader(),
-          ),
-
-          Stack(
-            children: [
-
-              Positioned(
-                child: LoginForm(),
-              )
-
-            ],
-          ),
-
-
+          LoginHeader(),
+          LoginForm(),
           LoginAuth(),
-
-
         ],
       ),
     );
-
   }
 }
