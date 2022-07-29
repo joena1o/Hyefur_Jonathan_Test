@@ -17,9 +17,9 @@ class Login {
 
       var res = await Dio().post(conn, data:formData);
 
-      print(res.data);
+      print(res.data['api_status']);
 
-      if(res.statusCode == 200 || res.statusCode == "200")
+      if((res.data['api_status'] == "200" || res.data['api_status'] == 200))
         return true;
       else
         return false;

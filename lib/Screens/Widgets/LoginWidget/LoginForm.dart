@@ -101,7 +101,7 @@ class LoginForm extends StatelessWidget {
                           if (value == true) {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (_) => PostInteraction()));
-                          } else {
+                          } else{
                             Alert("Login failed", context);
                           }
                         });
